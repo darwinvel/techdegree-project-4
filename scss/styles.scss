@@ -12,6 +12,10 @@
 		'_index.scss';
 
 
+@import '_base.scss',
+		'_normalize.scss',
+		'_index.scss';
 
 // import components partials
-@import 'components';
+@import 'components',
+		'';
