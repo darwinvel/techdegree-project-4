@@ -5,22 +5,22 @@
 
 
 // NOTE: import utilities and base partials here:
-@import '_extends.scss',
-		'_functions.scss',
-		'_mixins.scss',
-		'_variables.scss',
-		'_index.scss';
+@import 'utilities/extends',
+		'utilities/functions',
+		'utilities/mixins',
+		'utilities/variables',
+		'utilities/index';
 
 
-@import '_base.scss',
-		'_normalize.scss',
-		'_index.scss';
+@import 'base/base',
+		'base/normalize',
+		'base/index';
 
 // import components partials
-@import '_buttons.scss',
-		'_forms.scss',
-		'_grid.scss',
-		'_images.scss',
-		'_index.scss',
-		'_navigation.scss',
-		'typography.scss';
+@import 'components/buttons',
+		'components/forms',
+		'components/grid',
+		'components/images',
+		'components/index',
+		'components/navigation',
+		'components/typography';
