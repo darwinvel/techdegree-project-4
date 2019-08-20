@@ -17,5 +17,10 @@
 		'_index.scss';
 
 // import components partials
-@import 'components',
-		'';
+@import '_buttons.scss',
+		'_forms.scss',
+		'_grid.scss',
+		'_images.scss',
+		'_index.scss',
+		'_navigation.scss',
+		'typography.scss';
